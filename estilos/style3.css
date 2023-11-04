@@ -1,0 +1,263 @@
+/************ 
+// GENERAL
+************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #ffffff;
+	font-size: 1em;
+	line-height: 1.5em;
+	
+	padding-top: 80px;
+}
+
+h1 {
+	font-size: 2.3em;
+  line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+	color: #982cf6;
+	Padding: 15px 5px;
+}
+
+h2{
+ 
+	color: #a688da;
+
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+	background:  #9966f8;
+	color: black; /** Cambiar el color de las // **/
+	height: 110px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+	#main-header a {
+		color:  white;
+	}
+	
+	
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: black;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: black;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #8a54e0;
+				}
+	
+
+
+
+/************ 
+Esto no se puede quitar
+************/
+.cambiar{
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	margin-left: 5%; /* Para mover el contenedor de lugar*/
+	margin-top: 70px;
+	border-radius: 15px;
+
+}
+
+	#main-content header,
+	#main-content .content {
+		padding: 40px;
+	}
+
+
+.btn{
+
+   background-color: rgb(43, 198, 226);
+   padding: 20px 35px;
+   border: 0;
+   border-radius: 15px;
+   color: rgb(219, 214, 214);
+   font-size: 18px;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+
+   
+
+
+}
+
+.btn:hover{
+    
+   background-color: rgb(0, 0, 0);
+   cursor: pointer;
+
+}
+	
+div{
+ 
+  position: left;
+text-align: center;	
+
+}
+
+.abajo{
+
+
+  background-color: rgb(126, 86, 237); 
+  width: 100%;
+  height: 100px;
+  margin-top: 230px;
+  border-color: #000000;
+
+
+
+}
+
+.letrasb{
+
+
+	
+    color: white;
+
+
+}
+
+
+
+.contenedor {
+    background-color: rgb(126, 86, 237);
+    padding: 20px;
+    border: 2px rgb(126, 86, 237);
+    text-align: center;
+    width: 80%;
+
+   
+}
+
+.letras1{
+
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+	margin-right: 30%;
+
+}
+
+.letras{
+
+	color: rgb(255, 255, 255);
+	margin-right: 30%;
+ 
+ }
+
+ .arriba{
+
+	margin-top: -50px;
+ 
+
+ }
+
+ .negra{
+
+	color:black;
+
+ }
+
+ a.subrayado {
+    text-decoration: none;
+    margin-right:20px;
+    color: #000000;
+
+}
+
+a.subrayado:hover{
+
+
+    color: #7712eb;
+}
+
+
+.imagen-correo{
+
+     width: auto;
+	height: 40px;
+
+
+}
+
+
+
+
+
+/************ 
+// GENERAL
+************/
+
+
+

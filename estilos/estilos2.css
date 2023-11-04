@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f2f5;
+}
+
+form {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 50px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+form h2 {
+    font-size: 25px;
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    
+}
+
+.input-container {
+    position: relative;
+  
+
+}
+
+.input-container > i {
+    padding: 14px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(82, 10, 82, 0.2) 0%, #742aff 70%);
+  
+    color: #fcfef7;
+    position: absolute;
+    font-size: 20px;
+    top: 4px;
+    left: 10px;
+    
+}
+
+.input-container > input {
+    padding: 17px 15px 17px 65px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 16px;
+    outline: none;
+    color: black;
+
+}
+
+::placeholder{
+    color: #848181;
+    font-size: 16px;
+
+}
+
+form a {
+    padding: 10px;
+    display: block;
+    color: #a0a0a0;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 15px;
+
+}
+
+.btn {
+    background: linear-gradient(
+         90deg,
+         rgba(82, 10, 82, 0.2) 0%, #691afd 50%);
+    padding: 15px 80px;
+    border: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    color: #fcfef7;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+
+
+.success {
+    position: absolute;
+    top: 50px;
+    color: #00a735;
+    font-size: 18px;
+}
+
+.error {
+    position: absolute;
+    top: 50px;
+    color: #e02d00;
+    font-size: 18px;
+}
+
+@media(max-width:991px) {
+
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 340px;
+
+    }
+}
+    
+.registro{
+
+      margin-top: 30%;
+      color:  #5b6574;;
+
+}
+
+a.subrayado {
+    text-decoration: none;
+    margin-right:20px;
+    color: #8a54e2;
+
+}
+
+a.subrayado:hover{
+
+
+    color: #8d2aff;
+}
+
